@@ -1,0 +1,51 @@
+*******************************************************************************************
+******************************  Welcome to OpenLib DBMS!  *********************************
+*       You've run the program with no args and therefore are reading this manual.        *
+*               Please, execute it with the following arguments:                          *
+*          ./openlib books.csv students.csv users.csv student_books.csv                   *
+*            or simply use the script ./run.sh located in this folder.                    *
+*                  Please note, that the .csv files in the folder in                      *
+*                that case have to be named as was mentioned before.                      *
+*                                                                                         *
+*******************************************************************************************
+*                                                                                         *
+*     This software was created to help digitize small- and medium-sized libraries.       *
+* The program uses four files in .csv format:                                             *
+*    1. books.csv                                                                         *
+*       This file contains all information about books in the whole library.              *
+*       Valid format:                                                                     *
+*          ISBN;title;author(s);totalBooks;availableBooks                                 *
+*    2. students.csv                                                                      *
+*       This file contains info about students using the library.                         *
+*       Valid format:                                                                     *
+*          ID of markbook;surname;name;patronymic;department;speciality                   *
+*    3. users.csv                                                                         *
+*       This contains information about DBMS users.                                       *
+*       Valid format:                                                                     *
+*          login;password;flag1;flag2                                                     *
+*          where flag1 - could be 0 or 1, defines access to editing books;                *
+*                flag2 - could also be only 0 or 1, defines access to editing students.   *
+*    4. student_books.csv                                                                 *
+*       Contains info about books that were taken by the students.                        *
+*       Valid format:                                                                     *
+*          ISBN;ID of markbook;date of return                                             *
+*                                                                                         *
+*                     Please, pay your attention to the fact, that                        *
+*                for correct work all the files are needed to be valid.                   *
+*                   That means ISBN's, ID's of markbooks and amounts                      *
+*                      must be synchronized throughout the whole library.                 *
+*                      Otherwise appropriate warnings will be shown.                      *
+*             In case an error is not fatal (e.g. unsynchronized amounts of books)        *
+*                      nothing terrible will happen - taken books                         *
+*                       simply won't be shown in student's profiles.                      *
+*                                                                                         *
+*******************************************************************************************
+*            Pressing "y" after starting the program will launch ClearMode.               *
+*       In this mode the screen will be cleared after any completed action. Try it.       *
+*******************************************************************************************
+*        All actions of users in the system are being written to the log.txt file.        *
+*            In spite of user's decision of saving current state of the databases,        *
+*         all the data would be written in book_Save.csv and student_Save.csv.            *
+*    So, as you can see, nothing bad can happen to the data while using this program.     *
+**************************  Thank you for using this software!  ***************************
+*******************************************************************************************
