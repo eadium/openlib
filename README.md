@@ -36,4 +36,4 @@ In order to assure correct work from the application, make sure that all .csv fi
 ### Step 3. Using
 * All actions of users in the system are being written to the `log.txt` file.
 * To keep your data safe, autosave is enabled by default. Moreover, you can save the current state by choosing <b>Save</b> in the menu of the application.
-* Pressing "y" after starting the program will launch ClearMode.x
+* Pressing "y" after starting the program will launch ClearMode.
