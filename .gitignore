@@ -1,3 +1,5 @@
 *.csv
 .vscode/
 openlib
+log.txt
+*_Save.csv
