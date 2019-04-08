@@ -12,7 +12,7 @@ A simple & fast library management system written in pure C.
 ```
 git clone https://github.com/eadium/openlib.git
 cd openlib
-./make.sh
+make
 ```
 
 ### Step 2. Running

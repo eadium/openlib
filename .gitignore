@@ -3,3 +3,6 @@
 openlib
 log.txt
 *_Save.csv
+CMakeFiles
+*.cmake
+CMakeCache.txt
